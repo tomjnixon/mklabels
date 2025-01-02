@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mklabels"
+version = "0.0.1"
+
+description = "generate PDFs suitable for printing on a label printer"
+
+requires-python = ">=3.10"
+dependencies = [
+    "cffi ~= 1.1",
+    "cairocffi ~= 1.7",
+]
+
+[tool.setuptools]
+packages = ["mklabels"]
+
+[project.scripts]
+mklabels = "mklabels.main:main"
