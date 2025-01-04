@@ -1,0 +1,7 @@
+--rotate
+--h-align left
+--v-align top
+--font "sans 7"
+--margin-inner 1mm
+--label-height 19mm
+--margin "1mm 1mm 4mm"
